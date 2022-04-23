@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  background: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+li,
+ul,
+ol {
+  list-style: none;
+}
+a {
+  color: none;
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+  color: red;
+}
+a:hover {
+  text-decoration: none;
+  color: blue;
+}
+a:focus {
+  text-decoration: none;
+  color: none;
+}
+a:hover,
+a:active {
+  text-decoration: none;
+  color: black;
+}
+body {
+  background-image: url("./assets/45degreee_fabric.png");
+  background-attachment: fixed;
+  background-position: center center;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 100vh;
+}
+header {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  min-width: 100vw;
+  min-height: 50vh;
+  background-color: aliceblue;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url("./assets/avocado.jpg");
+  text-align: center;
+  width: 100%;
+  background-size: cover;
+  background-position: calc(35%);
+  background-repeat: no-repeat;
+  position: relative;
+  background-color: MidnightBlue;
+  overflow: hidden;
+}
+
+h2 {
+  font-size: 2rem;
+  color: white;
+}
+/******************* NAVBAR STYLES *******************************/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  font-size: 1em;
+}
+.left,
+.right {
+  display: flex;
+  float: left;
+  align-items: center;
+  gap: 16px;
+}
+.links {
+  display: flex;
+  gap: 1rem;
+}
+
+.logo-img {
+  max-width: 100px;
+  max-height: 100px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+/******************* NAVBAR STYLES END *******************************/
+
+/******************* HERO STYLES *******************************/
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: visible;
+}
+.hero > img {
+  width: 50%;
+  flex: 1;
+}
+.hero-headline {
+  position: absolute;
+  margin-bottom: 1px;
+}
+/******************* ABOUT STYLES *******************************/
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 10% 0 10%;
+  gap: 2rem;
+  min-height: 100vh;
+}
+.about-img {
+  width: 50%;
+}
+.about-headline {
+  width: 50%;
+}
