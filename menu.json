@@ -1,0 +1,176 @@
+{
+  "menu":{
+    "bread":{
+      "rolls":{
+        "0":"Dutch Crunch",
+        "1": "Sourdough",
+        "2": "Sweet",
+        "3": "Wheat"
+      },
+      "sliced":{
+        "0":"White",
+        "1": "Wheat",
+        "2": "Rye",
+        "3": "Sourdough"
+      }
+  },
+  "cheese":{
+    "0": "Swiss",
+    "1": "Monterey Jack",
+    "2": "Provolone",
+    "3": "American",
+    "4": "Pepper Jack",
+    "5": "Cheddar"
+  },
+  "addons":{
+    "Avocado":{
+      "small":"1.00",
+      "large":"1.50"
+    },
+    "Bacon":{
+      "small":"1.25",
+      "large":"1.75"
+    },
+    "Jalapenos":{
+      "small":"0.50",
+      "large":"0.75"
+    },
+    "Pepperoncini":{
+      "small":"0.50",
+      "large":"0.75"
+    },
+    "Garlic Pesto":"0.40",
+
+    "Extra Meat": "3.00"
+  },
+  "sandwiches":
+    {
+      "New York Special":{
+        "small":"8.95",
+        "large":"10.95",
+        "description":"Mortadella, Salami and Coppa w/ Provolone Cheese, Oil and Vinegar"
+      },
+      "Turkey w/ Cream Cheese and Cranberry":{
+        "small":"8.25",
+        "large":"10.25",
+        "description":"Cream Cheese and Cranberry"
+      },
+      "Reuben":{
+        "small":"8.95",
+        "large":"10.95",
+        "description":"Corned Beef, Swiss Cheese, Sauerkraut, Tomato and Thousand Island Dressing"
+      },
+      "Turkey Supreme":{
+        "small":"8.95",
+        "large":"10.95",
+        "description":"Turkey, Monterey Jack, and Avocado"
+      },
+      "Deluxe":{
+        "small":"9.55",
+        "large":"11.55",
+        "description":"Turkey Supreme w/ Bacon"
+      },
+      "Turkey Club":{
+        "small":"8.75",
+        "large":"10.75",
+        "description":"Bacon, Avocado, Lettuce and Tomato"
+      },
+      "Roast Beef Club":{
+        "small":"9.25",
+        "large":"11.25",
+        "description":"Bacon, Avocado, Lettuce and Tomato"
+      },
+    "Turkey":{
+      "small":"7.45",
+      "large":"9.45"
+    },
+    "Roast Turkey":{
+      "small":"7.80",
+      "large":"9.80"
+    },
+    "Peppered Turkey":{
+      "small":"7.80",
+      "large":"9.80"
+    },
+    "Smoked Turkey":{
+      "small":"7.80",
+      "large":"9.80"
+    },
+    "Ham":{
+      "small":"7.45",
+      "large":"9.45"
+    },
+    "BLT w/ Mayo":{
+      "small":"7.80",
+      "large":"9.80"
+    },
+    "Combination":{
+      "small":"7.80",
+      "large":"9.80"
+    },
+    "Mortadella":{
+      "small":"7.45",
+      "large":"9.45"
+    },
+    "Bologna":{
+      "small":"7.45",
+      "large":"9.45"
+    },
+    "Chicken Breast":{
+      "small":"7.45",
+      "large":"9.45"
+    },
+    "Liverwurst":{
+      "small":"7.45",
+      "large":"9.45"
+    },
+    "Roast Beef":{
+      "small":"7.80",
+      "large":"9.80"
+    },
+    "Pastrami":{
+      "small":"7.80",
+      "large":"9.80"
+    },
+    "Corned Beef":{
+      "small":"7.80",
+      "large":"9.80"
+    },
+    "Salami":{
+      "small":"7.80",
+      "large":"9.80"
+    },
+    "Coppa":{
+      "small":"8.95",
+      "large":"10.95"
+    },
+    "Proscuitto":{
+      "small":"9.55",
+      "large":"11.55"
+    },
+    "Avocado (Veggie)":{
+      "small":"7.45",
+      "large":"9.45"
+    },
+    "Cheese Sandwich":{
+      "small":"7.05",
+      "large":"9.05"
+    },
+    "Chicken Salad":{
+      "small":"7.45",
+      "large":"9.45"
+    },
+    "Tuna Salad":{
+      "small":"7.45",
+      "large":"9.45"
+    },
+    "Meatball":{
+      "small":"7.80",
+      "large":"9.80"
+    },
+    "Gyro": {
+      "small":"7.50"
+    }
+  }
+  }
+}

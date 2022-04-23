@@ -6,6 +6,7 @@
 }
 html {
   scroll-behavior: smooth;
+  font-size: 100%;
 }
 img {
   display: block;
@@ -152,4 +153,53 @@ h3 {
   justify-content: center;
   width: 50%;
   height: auto;
+}
+/******************* MAP STYLES *******************************/
+.map {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.menu {
+  display: flex;
+  flex-flow: column wrap;
+
+  min-height: 100vh;
+  min-width: 80vw;
+}
+.special {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  margin: 8px;
+  border-bottom: 1px solid black;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+}
+.card-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  font-size: 1.5em;
+}
+.description {
+  font-size: 0.7em;
+  font-weight: 100;
+  font-style: italic;
+}
+.price {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  padding-right: 16px;
 }
