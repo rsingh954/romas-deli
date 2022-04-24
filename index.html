@@ -4,9 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/e4afb38b11.js"
+      crossorigin="anonymous"
+    ></script>
     <link
+      href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css"
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      type="text/css"
     />
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <title>Romas Deli San Bruno</title>
@@ -25,7 +30,7 @@
         </div>
         <div class="right">
           <ul class="links">
-            <li><a href="#" target="">Menu</a></li>
+            <li><a href="#menu">Menu</a></li>
             <!-- <li><a href="#" target="">Contact</a></li> -->
           </ul>
         </div>
@@ -42,36 +47,91 @@
     </div>
     <!--Section begins-->
     <section class="about-container">
-      <div class="about">
-        <img src="./assets/dutch.png" alt="dutch" />
-      </div>
-      <div class="about-headline">
+      <div class="eleven">
         <h1>About Us</h1>
+      </div>
+      <div class="about">
+        <img class="about-img" src="./assets/dutch.png" alt="dutch" />
+        <div class="about-headline">
+          <p>
+            Serving San Bruno for over 20 years. Come on by and try one of our
+            oven toasted sandwiches. Let us cater your next event! We offer
+            catering on orders over $100.
+          </p>
+        </div>
+      </div>
+      <div class="about">
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus
-          magni culpa inventore cupiditate expedita. Reiciendis vero sapiente
-          laudantium, cumque perferendis veritatis quo consequatur maiores sit
-          corrupti explicabo labore libero ex? Lorem, ipsum dolor sit amet
+          <img class="about-img" src="./assets/boars.jpg" alt="dutch" />
         </p>
+        <div class="about-headline">
+          <caption>
+            Featurings Boars Heads Meats and Cheeses
+          </caption>
+        </div>
+      </div>
+      <div class="about">
+        <p>
+          <img class="about-img" src="./assets/snack.jpg" alt="dutch" />
+        </p>
+        <div class="about-headline">
+          <caption>
+            Come grab a snack with your sandwich
+          </caption>
+        </div>
       </div>
     </section>
-
     <section class="menu">
-      <h1>Take a look at our menu</h1>
+      <div id="menu" class="eleven">
+        <h1>Menu</h1>
+      </div>
       <div class="special"></div>
     </section>
 
     <section class="map">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3160.1512305859005!2d-122.41313408447431!3d37.62213032869956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f79d7dfa80ded%3A0xce543723e3b05f10!2sRoma%20Deli!5e0!3m2!1sen!2sus!4v1650728663667!5m2!1sen!2sus"
-        width="370"
-        height="400"
-        style="border: 0"
-        allowfullscreen=""
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-      ></iframe>
+      <div id="contact" class="eleven">
+        <h1>Contact Info</h1>
+      </div>
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3160.1512305859005!2d-122.41313408447431!3d37.62213032869956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f79d7dfa80ded%3A0xce543723e3b05f10!2sRoma%20Deli!5e0!3m2!1sen!2sus!4v1650728663667!5m2!1sen!2sus"
+          width="370"
+          height="400"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map-column"
+        ></iframe>
+        <div class="hours-column">
+          <div class="hours-title">Open Everyday</div>
+          <div class="hours">10:00 AM - 3:00PM</div>
+          <div class="addition-info">No Dine In</div>
+          <span class="phone">
+            <i class="fa fa-solid fa-phone fa-xl"></i>
+            <span>(650) 589-2360</span>
+          </span>
+          <span class="address">
+            <i class="fa fa-solid fa-map fa-xl"></i>
+            <div class="address-info">
+              <span>424 San Mateo Ave</span>
+              <p>San Bruno, CA 94066</p>
+            </div>
+          </span>
+        </div>
+      </div>
     </section>
+    <!-- FOOTER -->
+    <div class="footer">
+      <p>
+        Copyright &#169;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        <a target="blank" href="https://github.com/rsingh954">Romas Deli</a>
+      </p>
+    </div>
+
     <script src="script.js" type="module"></script>
   </body>
 </html>
